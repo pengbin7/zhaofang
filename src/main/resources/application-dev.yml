@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    hikari:
+      jdbc-url: jdbc:mysql://127.0.0.1:3306/xunwu?characterEncoding=utf8&useSSL=false&useLocalSessionState=true&serverTimezone=GMT
+      driver-class-name: com.mysql.jdbc.Driver
+      username: root
+      password: root
+  #security:
+    #user:
+      #name: admin
+      #password: admin
+  thymeleaf:
+    cache: false
+  servlet:
+    multipart:
+      enabled: true
+      location: D:\workspace\myGit\搜索测试\zhaofang\tmp
+      file-size-threshold: 5MB
+      max-request-size: 20MB

@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    hikari:
+          jdbc-url: jdbc:mysql://127.0.0.1:3306/xunwu?characterEncoding=utf8&useSSL=false&useLocalSessionState=true&serverTimezone=GMT
+          driver-class-name: com.mysql.jdbc.Driver
+          username: root
+          password: root

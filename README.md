@@ -1,0 +1,1 @@
+当前最新版springboot2.1.4，初步作为一个elasticseach练习项目。
