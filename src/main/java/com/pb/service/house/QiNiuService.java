@@ -29,7 +29,7 @@ public class QiNiuService implements IQiNiuService{
     @Autowired
     private Auth auth;
 
-    @Value("${QiNiu.Bucket}")
+    @Value("${qiniu.Bucket}")
     private String bucket;
 
     private StringMap putPolicy;

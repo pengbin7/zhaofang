@@ -75,7 +75,7 @@ public class FileUploadConfig {
     @Value("${qiniu.AccessKey}")
     private String accessKey;
 
-    @Value("${qiniu,SecretKey}")
+    @Value("${qiniu.SecretKey}")
     private String secretKey;
 
     /**
